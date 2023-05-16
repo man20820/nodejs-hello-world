@@ -16,7 +16,7 @@ on:
 
 env:
   AWS_REGION: ap-southeast-3                   # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: 763572795622.dkr.ecr.ap-southeast-3.amazonaws.com/nodejs-hello-worldMY_ECR_REPOSITORY           # set this to your Amazon ECR repository name
+  ECR_REPOSITORY: nodejs-hello-world           # set this to your Amazon ECR repository name
   ECS_SERVICE: nodejs-hello-world                 # set this to your Amazon ECS service name
   ECS_CLUSTER: test                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: nodejs-hello-world # set this to the path to your Amazon ECS task definition
