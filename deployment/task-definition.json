@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "nodejs-hello-world",
-            "image": "763572795622.dkr.ecr.ap-southeast-3.amazonaws.com/nodejs-hello-world:test",
+            "image": "",
             "cpu": 0,
             "portMappings": [
                 {
