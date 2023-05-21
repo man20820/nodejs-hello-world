@@ -17,7 +17,11 @@
             "essential": true,
             "environment": [
                 {
-                    "name": "",
+                    "name": "hello",
+                    "value": ""
+                },
+                {
+                    "name": "lorem",
                     "value": ""
                 }
             ],
