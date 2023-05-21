@@ -69,6 +69,11 @@ jobs:
         run: |-
           echo $TEST_NODEJS_HELLO_WORLD_HELLO
           echo $TEST_NODEJS_HELLO_WORLD_TEST
+      
+      - name: set env
+        run: |-
+          chmod +x deployment/env-filter.sh
+          ./deployment/env-filter.sh
 
       - name: Fill in the new image ID in the Amazon ECS task definition
         id: task-def
