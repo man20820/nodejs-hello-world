@@ -18,11 +18,11 @@
             "environment": [
                 {
                     "name": "hello",
-                    "value": ""
+                    "value": "{{ hello }}"
                 },
                 {
-                    "name": "lorem",
-                    "value": ""
+                    "name": "test",
+                    "value": "{{ test }}"
                 }
             ],
             "environmentFiles": [],
