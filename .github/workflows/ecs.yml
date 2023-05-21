@@ -70,8 +70,7 @@ jobs:
         uses: abhilash1in/aws-secrets-manager-action@v2.1.0
         with:
           secrets: |
-            test/nodejs-hello-world/hello
-            test/nodejs-hello-world/test
+            test/nodejs-hello-world
           parse-json: true
 
       - name: view env
