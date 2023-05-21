@@ -76,8 +76,10 @@ jobs:
 
       - name: view env
         run: |-
-          echo $hello
-          echo $test
+          echo $HELLO
+          echo $NODEJS_HELLO_WORLD_HELLO
+          echo $TEST_NODEJS_HELLO_WORLD_HELLO
+          echo $TEST
 
       - name: Deploy Amazon ECS task definition
         uses: aws-actions/amazon-ecs-deploy-task-definition@df9643053eda01f169e64a0e60233aacca83799a
